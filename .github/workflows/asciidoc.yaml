@@ -1,4 +1,4 @@
-me: build asciidoc
+name: build asciidoc
 
 on:
   push:
