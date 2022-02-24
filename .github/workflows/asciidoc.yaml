@@ -22,7 +22,13 @@ jobs:
         with:
           name: HTML document
           path: index.html
-
+      - name: Push to pages 
+        run: |
+          git config --global user.name furioncycle
+          git config --global user.email admarquez21@gmail.com
+          git commit -am "Updating Pages"
+          git push
+          
       - name: Build PDF
         uses: avattathil/asciidoctor-action@master
         with:
