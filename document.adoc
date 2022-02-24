@@ -1,0 +1,64 @@
+:doctype: book
+:imagesdir: ./images
+:iconsdir: ./icons
+:nofooter:
+
+Angel Marquez:: 
+image:house-solid.svg[15,15] | 24448 Valencia Blvd Santa Clarita,CA, 91355 +
+image:phone-solid.svg[15,15] | (626) 271-4876 +
+image:email.png[15,15] | ttecho2021@gmail.com +
+image:gh.png[15,15] | https://github.com/furioncycle[furioncycle]
+
+[#Summary]
+Summary::
+ Lead embedded software engineer that loves open source and continuously learning with various experiences in embedded RF, CI/CD, and Application developement.
+
+[#work-experience]
+==== Work Experience - Navair, Point Mugu CA
+[horizontal]
+2018  ~August-Present~::: **Lead Embedded Software Engineer - APR-39 Radar Warning Reciever.** +
+ 
+ * Implement MIL-1553 messageing protocol for integration with Mission Critical Systems
+ * Characterize and debug RF anomolies in Operational Flight Program (OFP) using Matlab
+ * Debug mission critcal flash memory corruption due to customer mission data file
+ * Develop CRT display menus for systems on aircraft to interact with the system
+ * Review Interface Control and Functional Requirement Documents to ensure system is within scope and compliance
++
+*Technologies used*: Googletest, Rapidcheck,VxWorks, Visio
+
+2019 ~October-Present~::: **Software Developer - Gorgon.** +
+ * Write simulators in C# to interact with in-house script environment used for integration with embedded systems
+ * Fix offloader MQTT protocol to acquire RF data from the APR-39 for data analyzes in Matlab
+ * Develop Ada code generator for mission data file import conversion using Go
+
+2017  ~August-Present~::: **CI/CD Maintainer and Developer - APR-39 RWR.** +
+ * Implement and maintain CI pipeline in an offline Gitlab server for the APR-39 that includes building, analysing, testing, and packaging for our group
+ * Port a legacy visual c++ custom packager for OFP to python to integrate into our CI build process
+ * Develop a checksum display for Configuration management to quickly verify our OFP checksums for releases.
+
+2020 ~March-Present~::: **Section Head - JEDI Division** +
+ * Manage a sub-section of employees
+ * Interview potential software candidates for various groups at Point Mugu.
+
+
+[#projects]
+==== Projects
+[horizontal]
+2020 ~October~::: **Deaf Digital Audio WorkStation** +
+ * Implement wave decoder/encoder and unit tests with various types of wave samples
+ * Research between immediate mode gui vs retained mode for general interface 
+
+[#academic-record]
+==== Academic Record
+[horizontal]
+2011 – 2015::: **__California State University, Long Beach, BS in Computer Engineering, Long Beach, California__** +
+
+[#Skills]
+==== Skills
+[horizontal]
+Programming languages: :: Ada, Bash, C++, C#, Matlab,Python, Zig +
+Compilers: :: Adacore, Clang, Dotnet, GCC +
+Build tools: :: CMake, Dotnet, Make +
+IDE: :: GNAT Pro Studio, Visual Studio/VSCode, Windriver +
+Debuggers: :: Gdb, Lldb, Visual Studio, Windriver OnChip 
+Version Control: :: Git
