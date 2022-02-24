@@ -3,7 +3,7 @@ me: build asciidoc
 on:
   push:
       branches:
-          - master
+          - main
 jobs:
   asciidoc_build:
     runs-on: ubuntu-18.04
