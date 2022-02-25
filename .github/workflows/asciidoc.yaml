@@ -26,8 +26,8 @@ jobs:
         run: |
           git config --global user.name furioncycle
           git config --global user.email admarquez21@gmail.com
-          git commit -am "Updating Pages"
           git add ./index.html
+          git commit -am "Updating Pages"
           git push
           
       - name: Build PDF
