@@ -15,21 +15,21 @@ jobs:
       - name: Build HTML
         uses: avattathil/asciidoctor-action@master
         with:
-          program: "asciidoctor -D . --backend=html5 -o index.html document.adoc"
+          program: "asciidoctor -D . --backend=html5 -a data-uri -o index.html document.adoc"
 
       - name: Upload HTML Artifact
         uses: actions/upload-artifact@v1
         with:
           name: HTML document
           path: index.html
-      - name: Push to pages 
+      - name: Push to pages
         run: |
           git config --global user.name furioncycle
           git config --global user.email admarquez21@gmail.com
           git add ./index.html
           git commit -am "Updating Pages"
           git push
-          
+
       - name: Build PDF
         uses: avattathil/asciidoctor-action@master
         with:
