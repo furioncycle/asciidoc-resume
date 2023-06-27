@@ -11,14 +11,18 @@ image:gh.png[15,15] | https://github.com/furioncycle[furioncycle]
 
 [#Summary]
 Summary:::
- Lead embedded software engineer who loves open source and continuously learning, with vary experiences in embedded RF, CI/CD, and application development.
+ Lead embedded software engineer who loves innovations and wants to venture into the audio software industry
 
 [#work-experience]
-=== Work Experience - NAVAIR, Point Mugu, CA
+=== Work Experience - NAVAIR, Point Mugu, CA 
 [horizontal]
-2018  ~August-Present~::: **Lead Embedded Software Engineer - APR-39 Radar Warning Receiver** +
+2017  ~August-Present~::: **CI/CD Maintainer and Developer - APR-39 RWR** +
+ * Develop a Go application that generates a Software Formal Qualification Test report from gitlab issues based on a future release
+ * Implement and maintain our CI pipeline in an offline GitLab server for the APR-39 that includes building, analyzing, testing, and packaging
+ * Port a legacy Visual C++ 6 custom packager for Operation Flight Program to Python to integrate into our CI build process
 
- * Implement MIL-1553 messaging protocol for integration with mission critical systems
+2018  ~August-Present~::: **Lead Embedded Software Engineer - APR-39 Radar Warning Receiver** +
+ * Implement MIL-1553 standard messaging protocol for integration with mission critical systems
  * Characterize and debug RF anomalies in Operational Flight Program (OFP) using Matlab
  * Debug mission critical flash memory corruption due to customer mission data files
  * Develop CRT display menus for systems on aircraft to interact with the system
@@ -29,23 +33,17 @@ Summary:::
 2019 ~October-Present~::: **Software Developer - Gorgon** +
  * Write simulators in C# to interact with in-house script environment used for integration testing with embedded systems
  * Fix offloader MQTT protocol to acquire RF data from the APR-39 for data analysis in Matlab
- * Develop Ada code generator for mission data mocking in unit tests using Go
-
-2017  ~August-Present~::: **CI/CD Maintainer and Developer - APR-39 RWR** +
- * Implement and maintain CI pipeline in an offline GitLab server for the APR-39 that includes building, analyzing, testing, and packaging for our group
- * Port a legacy Visual C++ custom packager for Operation Flight Program to Python to integrate into our CI build process
- * Develop a checksum display for Configuration Management to quickly verify Operational Flight Program checksums for releases
-
-2020 ~March-Present~::: **Section Head - JEDI Division** +
- * Manage a subsection of employees
- * Interview potential software candidates for various groups at Point Mugu
 
 [#projects]
 ==== Projects
 [horizontal]
-2020 ~October~::: **deaf Digital Audio Workstation** +
+2020 ~October~::: **deaf - Digital Audio Workstation** +
  * Implement wave decoder/encoder and unit tests with various types of wave samples
- * Research between immediate mode vs retained mode GUIs for general design
+ * Research between general design for GUIs 
+
+2022 ~April~::: **dark-rain - Data Oriented Audio Engine** +
+ * Researching the ability to use Data Oriented Design for an Audio Engine to be used in deaf 
+ * Implement examples of an audio engine based on tracktion and labsound in zig
 
 [#academic-record]
 ==== Academic Record
@@ -57,8 +55,8 @@ Summary:::
 [#Skills]
 ==== Skills
 [horizontal]
-Programming languages: :: Ada, Bash, C++, C#, Matlab, Python, Zig +
+Programming languages: :: Ada, Bash, C++, C#, Python, Zig +
 Compilers/Build Tools: :: Clang, CMake, Dotnet, GCC, GNAT, Make +
-IDE: :: GNAT Pro Studio, Visual Studio/VSCode, Windriver +
+IDE: :: Visual Studio/VSCode, Windriver +
 Debuggers: :: Gdb, Lldb, Visual Studio, Windriver OnChip
 Version Control: :: Git
